@@ -10,13 +10,61 @@ body {
   font-family: roboto, sans-serif;
 }
 .contactos {
-  background-color: aqua;
+  background-color: #fff;
   width: 20%;
   height: 100vh;
+  border: 0.5px solid #bec1bb94;
+}
+.cont-primero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  border: 0.5px solid #bec1bb94;
+}
+.cont-maria {
+  display: flex;
+  justify-content: space-around;
+  font-size: smaller;
+  width: 50%;
+}
+.cont-icono {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.cont-maria,
+h1 {
+  font-size: smaller;
+}
+.activa {
+  color: #bec1bb;
+}
+.btn-chat {
+  background-color: #a491d2;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+}
+.img-principal {
+  width: 30px;
+  border-radius: 50px;
+}
+.cont-chico {
+  height: 9%;
+  border: 0.5px solid #bec1bb94;
+}
+.cont-grande {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  border: 0.5px solid #bec1bb94;
 }
 
 .section {
-  background-color: #fff;
+  background-color: #e8ebe4;
   width: 80%;
   height: 100vh;
   display: flex;
