@@ -7,7 +7,7 @@
 
 body {
   display: flex;
-  font-family: "roboto", sans-serif;
+  font-family: roboto, sans-serif;
 }
 .contactos {
   background-color: aqua;
@@ -39,4 +39,9 @@ body {
 .contenedor-sect h1 {
   font-size: 45px;
   font-weight: 400;
+}
+.contenedor-sect p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }
